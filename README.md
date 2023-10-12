@@ -1,6 +1,6 @@
 # JAVASCRIPT OVERVIEW
 
-* This Course will teach you the basic and advanced concepts of Javascript.
+* This Course will teach you the basic and advanced concepts of Javascript and how crucial it is for web development.
 
 # JAVASCRIPT PREREQUISITES
 
