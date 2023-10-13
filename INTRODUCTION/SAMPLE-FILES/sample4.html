@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRY IT YOURSELF</title>
+    </head>
+    <body>
+ <!---WE WILL TRY TO CREATE AN ELEMENT
+   THEN WE WILL ASSIGN A FUNCTION TO SHOW THE ELEMENT
+    WHEN WE CLICK ON THE "SHOW" BUTTON 
+ AND WE WILL HIDE THE ELEMENT WHEN WE CLICK ON THE "HIDE" BUTTON-->
+
+  <p id="demo" style="color: green; font-size: large;">
+        I AM MAKING PROGRESS
+  </p>
+
+        <!-------------------SHOW BUTTON----------------->
+        <button type="button" id="show" onclick="show()">SHOW</button>
+        <button type="button" id="hide" onclick="hide()">HIDE</button>
+    </body>
+
+    <script>
+        function show(){
+            document.getElementById("demo").style.display = "block";
+        }
+        function hide(){
+            document.getElementById("demo").style.display = "none";
+        }
+    </script>
+</html>

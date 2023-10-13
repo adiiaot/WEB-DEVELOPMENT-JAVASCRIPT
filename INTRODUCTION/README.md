@@ -22,17 +22,22 @@ In that sample, HTML is used to create the button layout, then CSS is used to de
 
 # WHAT CAN JAVASCRIPT DO?
 
-Well a lot, Javascript can change the content of HTML elements
+Well a lot...
+* Javascript can change the content of HTML elements
 
 CHECK OUT SAMPLE1 file
 -----------------------------------------
 
-Javascript can change the value of attributes.
+* Javascript can change the value of attributes.
 
 CHECK OUT SAMPLE2 file
 -----------------------------------------
 
-Javascript can change the styling of HTML elements
+* Javascript can change the styling of HTML elements
 
 CHECK OUT SAMPLE3 File
 -----------------------------------------
+
+* Javascript can hide and show elements
+
+CHECK OUT SAMPLE4 file.
