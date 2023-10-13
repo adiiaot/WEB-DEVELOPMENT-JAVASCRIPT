@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRY IT OUT</title>
+</head>
+<body>
+    <!----we will not add any text in the p tag-->
+    <p id="demo"></p>
+
+    <button type="button" onclick="myFunc()">Write Text</button>
+</body>
+
+<script>
+    function myFunc(){
+        var x = 4;
+        var y = 4;
+        var sum = x + y; //adds x and y, you should know this already
+
+        document.getElementById("demo").innerHTML = sum; //prints out 8 in the p tage
+    }
+</script>
+</html>
