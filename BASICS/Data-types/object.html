@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Data</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p>Accessing object's values will be taught later in this course</p>
+    
+    <script>
+        var banana = {
+            color: "yellow",
+            size: "long",
+            quantity: 3,
+            isSweet: true,
+        };
+
+        document.getElementById("demo").innerHTML = "Banana <br>" + 
+        "color: " + banana.color + "<br>" + "Size: " + banana.size
+        + "<br>" + "Quantity: " + banana.quantity + "<br>" + "Is Sweet?: " + banana.isSweet; 
+    </script>
+</body>
+</html>

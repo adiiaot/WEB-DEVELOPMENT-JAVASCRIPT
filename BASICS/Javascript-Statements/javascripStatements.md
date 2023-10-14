@@ -23,6 +23,7 @@ BELOW IS AN EXAMPLE OF A SINGLE LINE STATEMENT
     </script>
 </html>
 
+HEAD OVER TO statements.html FILE to see the output of this code
 ---------------------------------------------------------------------
 
 *GROUPING JAVASCRIPT STATEMENTS*
@@ -54,3 +55,5 @@ For example, in order to declare a variable, we have to use the "var" keyword.
         document.getElementById("elem").innerHTML = text;//replaces the THIRD PARAGRAPH TO FOURTH PARAGRAPH
     }
 </script>
+
+HEAD OVER TO THE statements.html FILE and copy and paste each of this <script> codes in the <script> below the <body>

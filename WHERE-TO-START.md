@@ -12,3 +12,6 @@
 2. Displaying-Outputs
 3. Javascript-Statements
 4. Javascript-Syntax
+5. Javascript-Comments
+6. Js-Variables
+7. Data-types
