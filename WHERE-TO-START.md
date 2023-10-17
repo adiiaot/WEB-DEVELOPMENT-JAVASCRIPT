@@ -15,3 +15,4 @@
 5. Javascript-Comments
 6. Js-Variables
 7. Data-types
+8. Js-Operators

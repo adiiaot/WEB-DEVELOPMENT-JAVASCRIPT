@@ -204,3 +204,67 @@ A JavaScript array is a collection of values. Each value is separated with a com
 It is written in square brackets [].
 
 The data type of an array is *object*.
+
+<script>
+    var animals = ["lion", "tiger", "cheetah"];
+    document.getElementById("demo").innerHTML = animals[0] + " " + animals[1] + " " + animals[2];
+</script>
+
+HEAD OVER TO arrays.html FILE TO SEE THE OUTPUT
+
+In the example above, the *animals* variable contains three string values: ["lion", "tiger", "cheetah"]
+
+*NOTE: I ALREADY HAVE A FOLDER DESIGNATED TO ARRAYS, SO JUST KEEP READING/PRACTICING
+---------------------------------------------------------------------
+
+
+# JAVASCRIPT IS DYNAMIC
+JavaScript is a dynamic language.
+
+Variables are not directly assigned with a single data type, unlike in other programming languages.
+
+Any variable in JavaScript can be reassigned to values of all types.
+
+<script>
+    var x = "text"; //x is a string
+    x = true; //x is a boolean
+    x = 21; //x is a number
+    document.write(x);
+</script>
+
+The output changes from "text" to *true" to the final output which becomes 21.
+---------------------------------------------------------------------
+
+
+# THE TYPEOF OPERATOR
+The *typeof* operator returns a string indicating the data type of the evaluated operand.
+
+<script>
+    typeof "His name is Ayo Deji"; //returns the word "string"
+    typeof 17; //returns the word "number"
+    typeof true; //returns the word "boolean"
+    typeof undefined; //returns the word "undefined"
+</script>
+
+HEAD OVER TO typeof.html FILE TO SEE THE OUTPUT
+---------------------------------------------------------------------
+
+
+# COMPLEX DATA
+There are two complex data types, both can be returned by the *typeof* operator
+
+* Object
+* function
+
+<script>
+    typeof {firstName: "", lastName: "", age: }; //returns "object"
+    typeof ["lion", "tiger", "cheetah"]; //returns "object"
+    typeof null; //returns "object"
+    typeof function myfunc() {}; //returns "function"
+</script>
+
+HEAD OVER TO complex.html to see the output of this code
+
+As you may have noticed, *typeof* operator returns "object" when the operand is an *object, array or null*.
+
+And it returns "function" when the operand is a *function*.
