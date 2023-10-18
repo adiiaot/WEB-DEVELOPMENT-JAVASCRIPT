@@ -16,3 +16,4 @@
 6. Js-Variables
 7. Data-types
 8. Js-Operators
+9. JS-Arithmetic-Operators
