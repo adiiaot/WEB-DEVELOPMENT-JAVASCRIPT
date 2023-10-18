@@ -17,3 +17,4 @@
 7. Data-types
 8. Js-Operators
 9. JS-Arithmetic-Operators
+10. JS-Assignment-Operators
