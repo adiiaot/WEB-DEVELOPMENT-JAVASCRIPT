@@ -9,7 +9,7 @@
 
 # BASIC
 1. Writing-Javascript-codes
-2. Displaying-Outputs
+2. Displaying-Outputs 
 3. Javascript-Statements
 4. Javascript-Syntax
 5. Javascript-Comments
@@ -18,3 +18,4 @@
 8. Js-Operators
 9. JS-Arithmetic-Operators
 10. JS-Assignment-Operators
+11. JS-Comparison-Operators
