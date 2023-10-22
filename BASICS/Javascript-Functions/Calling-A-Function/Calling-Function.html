@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALLING A FUNCTION </title>
+    </head>
+    <body>
+       <p id="demo">Sum will be printed here.</p>
+       <button onclick= "addNumbers(2, 5)"> ADD </button>
+    </body>
+</html>
+
+<script>
+    function addNumbers(num1, num2){
+        var sum = num1 + num2;
+        document.getElementById("demo").innerHTML = sum; //prints out 7
+}
+</script>

@@ -19,3 +19,5 @@
 9. JS-Arithmetic-Operators
 10. JS-Assignment-Operators
 11. JS-Comparison-Operators
+12. JS-Logical & Conditional-Operators
+13. JavaScript-Functions
