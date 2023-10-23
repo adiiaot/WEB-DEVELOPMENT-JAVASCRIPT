@@ -21,3 +21,5 @@
 11. JS-Comparison-Operators
 12. JS-Logical & Conditional-Operators
 13. JavaScript-Functions
+14. JavaScript-Objects
+15. JavaScript-Strings
