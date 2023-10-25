@@ -23,3 +23,4 @@
 13. JavaScript-Functions
 14. JavaScript-Objects
 15. JavaScript-Strings
+16. JavaScript-String-Methods
