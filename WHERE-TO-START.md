@@ -25,3 +25,4 @@
 15. JavaScript-Strings
 16. JavaScript-String-Methods
 17. JavaScript-Numbers
+18. JavaScript-Number-Methods

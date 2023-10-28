@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE parseFloat() METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var num1 = parseFloat("21"); //returns 21
+        var num2 = parseFloat("2.22"); //returns 2.22
+        var num3 = parseFloat("22.2 days"); //returns 22.2
+        var num4 = parseFloat("22.2 months and 22 days"); //returns 22.2
+        var num5 = parseFloat("months 3"); //returns NaN
+        var num6 = parseFloat("Making Progress"); //returns NaN
+
+        document.getElementById("demo").innerHTML = 
+        num1 + "<br>" +
+        num2 + "<br>" +
+        num3 + "<br>" +
+        num4 + "<br>" +
+        num5 + "<br>" +
+        num6;
+    </script>
+</body>
+</html>

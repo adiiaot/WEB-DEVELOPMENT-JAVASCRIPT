@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE parseInt() METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var num1 = parseInt("21"); //returns 21
+        var num2 = parseInt("2.22"); //returns 2
+        var num3 = parseInt("22.2 days"); //returns 22
+        var num4 = parseInt("22.2 months and 21 days"); //returns 22
+        var num5 = parseInt("months 3"); //returns NaN
+        var num6 = parseInt("Making Progress"); //returns NaN
+
+        document.getElementById("demo").innerHTML = 
+        num1 + "<br>" +
+        num2 + "<br>" +
+        num3 + "<br>" +
+        num4 + "<br>" +
+        num5 + "<br>" +
+        num6;
+    </script>
+</body>
+</html>

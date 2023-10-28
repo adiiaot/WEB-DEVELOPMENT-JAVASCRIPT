@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE toExponential() METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>    
+        var num1 = (55.1234).toExponential(1); //returns 5.5e+1
+        var num2 = (55.1234).toExponential(2); //returns 5.51e+1
+        var num3 = (55.1234).toExponential(3); //returns 5.512e+1
+
+        document.getElementById("demo").innerHTML = 
+        num1 + "<br>" +
+        num2 + "<br>" +
+        num3;
+    </script>
+</body>
+</html>

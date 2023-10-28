@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE isNaN METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var num1 = isNaN(21); //returns false
+        var num2 = isNaN(3.21); //returns false
+        var num3 = isNaN("Making Progress"); //returns true
+        var num4 = isNaN("five"); //returns true
+        var num5 = isNaN(12 / "five"); //returns true
+
+        document.getElementById("demo").innerHTML = 
+        num1 + "<br>" +
+        num2 + "<br>" +
+        num3 + "<br>" +
+        num4 + "<br>" +
+        num5;
+
+    </script>
+</body>
+</html>
