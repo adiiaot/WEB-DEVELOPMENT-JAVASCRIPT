@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCHING FOR AN ITEM USING THE includes() METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var animals = ["Lion", "Tiger", "Dog"];
+    
+        var x = animals.includes("goat"); //returns false
+        var y = animals.includes("lion"); //returns true
+    
+        document.getElementById("demo").innerHTML =
+        x + "<br>"
+        y; //i will not be printed out as Lion is in the array list
+    </script>
+</body>
+</html>

@@ -27,3 +27,4 @@
 17. JavaScript-Numbers
 18. JavaScript-Number-Methods
 19. JavaScript-Arrays
+20. JavaScritp-Array-Methods
