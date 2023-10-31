@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTING NUMBERS USING THE compareFunction() METHOD</title>
+</head>
+<body>
+    <script>
+        var numbers = ["5", "3", "4", "1", "2"];
+        numbers.sort(compareFunction);
+
+        function compareFunction(a, b){
+            return a - b;
+        }
+
+        document.write(numbers);
+    </script>
+</body>
+</html>

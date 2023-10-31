@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTING AN ARRAY OF OBJECTS</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var students = [
+            {name: "Ayo", age: 8},
+            {name: "Adii", age: 9},
+            {name: "Taye", age: 3}
+        ];
+
+        students.sort(compareFunction);
+
+        function compareFunction(a, b){
+            return a.age - b.age;
+        }
+
+        /* displaying the data */
+
+        for(var i = 0; i < students.length; i++){
+            document.getElementById("demo").innerHTML += "<p>Name: " + 
+                students[i].name + "<br> Age: " + students[i].age + "</p>";
+        }
+    </script>
+</body>
+</html>
