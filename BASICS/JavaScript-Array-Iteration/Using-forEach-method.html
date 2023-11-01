@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING THE forEach() METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var animals = ["Dog", "Tiger", "Lion"];
+
+        animals.forEach(function(value, index, array){
+            document.getElementById("demo").innerHTML += "<p>Index: " + index + " <br>Value: " + value + "</p>";
+        });
+    </script>
+</body>
+</html>

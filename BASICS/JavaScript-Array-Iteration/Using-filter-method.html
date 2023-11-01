@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING THE filter() METHOD</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var numbers = [1, 2, 3, 4, 5];
+
+        var newArr = numbers.filter(function(value){
+            return value < 4;
+        });
+
+        document.getElementById("demo").innerHTML += newArr;
+    </script>
+</body>
+</html>
