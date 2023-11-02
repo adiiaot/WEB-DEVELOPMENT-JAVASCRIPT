@@ -30,3 +30,4 @@
 20. JavaScript-Array-Methods
 21. JavaScript-Array-Sorting
 22. JavaScript-Array-Iteration
+23. JS-Events

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE *change* EVENT</title>
+</head>
+<body>
+    <label> Choose a city
+        <select name="city" id="city">
+            <option value="Berlin">Berlin</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Lagos">Lagos</option>
+        </select>
+    </label>
+
+    <p>You selected: <span id="demo"></span></p>
+
+
+    <script>
+        var select = document.getElementById("city");
+
+        select.addEventListener("change", function(){
+            var val = document.getElementById("city").value;
+            document.getElementById("demo").innerHTML = val;
+        })
+    </script>
+</body>
+</html>
