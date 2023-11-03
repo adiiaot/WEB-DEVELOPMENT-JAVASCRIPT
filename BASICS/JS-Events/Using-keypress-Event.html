@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING THE *keypress* EVENT</title>
+</head>
+<body>
+    <textarea id="area"></textarea>
+    <p> The value is: <span id="demo"></span></p>
+
+
+    <script>
+        var area = document.getElementById("area");
+
+        area.addEventListener("keypress", function(){
+            document.getElementById("demo").innerHTML = area;
+        });
+    </script>
+</body>
+</html>

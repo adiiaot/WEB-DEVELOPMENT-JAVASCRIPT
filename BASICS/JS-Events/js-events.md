@@ -78,3 +78,86 @@ The example below gets the value of the *<select>* element when a value is selec
 
 HEAD OVER TO Using-change-Event.html TO SEE THE OUTPUT OF THIS CODE
 ---------------------------------------------------------------------
+
+
+# THE *mouseover* EVENT
+The *mouseover* event fires at an element when a mouse is moved onto the element.
+
+<script>
+    var elem = document.getElementById("demo");
+
+    elem.addEventListener("mouseover", function(){
+        elem.innerHTML = "Making progress";
+    });
+</script>
+
+HEAD OVER TO Using-mouseover-Event.html TO SEE THE OUTPUT OF THIS CODE
+---------------------------------------------------------------------
+
+
+# THE *keypress* EVENT
+The *keypress* event fires when a key is pressed.
+
+<script>
+    var area = document.getElementById("area");
+
+    area.addEventListener("keypress", function(){
+        document.getElementById("demo").innerHTML = area;
+    });
+</script>
+
+HEAD OVER TO Using-keypress-Event.html TO SEE THE OUTPUT OF THIS CODE
+---------------------------------------------------------------------
+
+
+# THE *focus* EVENT
+The *focus* event fires when an element is *focused*.
+
+In the example below, when the textarea is focused, its *background color* changes
+
+<script>
+    var area = document.getElementById("area");
+
+    area.addEventListener("focus", function(){
+        area.style.background = "yellow";
+    });
+</script>
+
+HEAD OVER TO Using-focus-Event.html TO SEE THE OUTPUT OF THIS CODE
+---------------------------------------------------------------------
+
+
+# THE *blur* EVENT
+The *blur* event fires when an element has *lost focus*.
+
+In the example below, when the textarea is focused, background color changes.
+
+When it loses focus, background color becomes white again.
+
+<script>
+    var area = document.getElementById("area");
+
+    area.addEventListener("focus", function(){
+        area.style.background = "yellow";
+    });
+
+    area.addEventListener("blur", function(){
+        area.style.background = "white";
+    });
+</script>
+
+HEAD OVER TO Using-blur-Event.html TO SEE THE OUTPUT OF THIS CODE
+---------------------------------------------------------------------
+
+
+# THE *resize* EVENT
+The *resize* event fires when the window is resized.
+
+<script>
+    window.addEventListener("resize", function(){
+        document.getElementById("windowWidth").innerHTML = window.innerWidth;
+        document.getElementById("windowHeight").innerHTML = window.innerHeight;
+    });
+</script>
+
+HEAD OVER TO Using-resize-event.html TO SEE THE OUTPUT OF THIS CODE

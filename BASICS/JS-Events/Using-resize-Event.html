@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING *resize* EVENT</title>
+</head>
+<body>
+    <p> Window Width: <span id="windowWidth"></span></p>
+    <p> Window Height: <span id="windowHeight"></span></p>
+    <p>Rotate your device to see the effect.</p>
+    <p> Use your mouse cursor to resize the window if you are using a PC or a Desktop</p>
+
+
+    <script>
+        window.addEventListener("resize", function(){
+            document.getElementById("windowWidth").innerHTML = window.innerWidth;
+            document.getElementById("windowHeight").innerHTML = window.innerHeight;
+        })
+    </script>
+</body>
+</html>
