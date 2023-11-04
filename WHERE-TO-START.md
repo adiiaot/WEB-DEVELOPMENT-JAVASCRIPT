@@ -32,3 +32,4 @@
 22. JavaScript-Array-Iteration
 23. JS-Events
 24. JS-Math-Object
+25. JS-Math-Random

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERATING A RANDOM INTEGER</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="getRandomInt(1, 10)"> Generate a Random Number from 1 to 9</button>
+<script>
+    //minimum is included, maximum is excluded
+    function getRandomInt(min, max){
+        document.getElementById("demo").innerHTML = Math.floor(Math.random() * (max - min)) + min;
+    }
+
+   
+</script>
+</body>
+</html>
