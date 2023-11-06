@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILLUSTRATIVE EXAMPLE</title>
+</head>
+<body>
+    <form>
+        <label>How old are you? <input type="number" name="age" id="age"> </label>
+        <button type="button" id="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById("submit").addEventListener("click", function(){
+            var age = document.getElementById("age").value;
+            if (age > 18) {
+                alert("User is old enough to enter");
+            } else {
+                alert("User is still young, My friend LEAVE!");
+            }
+        });
+    </script>
+</body>
+</html>

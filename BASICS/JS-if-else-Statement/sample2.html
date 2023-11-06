@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREETING USER</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        function greetUser(){
+            var time = new Date().getHours();
+            if (time < 11) {
+                return "Good Morning";
+            } else if (time < 18) {
+                return "Good day";
+            } else {
+                return "Good evening";
+            }
+        }
+
+        document.getElementById("demo").innerHTML = greetUser();
+    </script>
+</body>
+</html>
