@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPING OVER ARRAY USING WHILE</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+    <script>
+        var animals = ["Lion", "Tiger", "Dog"];
+        var len = animals.length;
+        var i = 0;
+        var html = "";
+
+        while (i < len) {
+            html += "<p> I like " + animals[i] + " . </p>"; 
+            i++;
+        }
+
+        document.getElementById("demo").innerHTML = html;
+    </script>
+</body>
+</html>
