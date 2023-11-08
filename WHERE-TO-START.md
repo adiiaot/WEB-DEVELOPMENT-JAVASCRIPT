@@ -35,3 +35,4 @@
 25. JS-Math-Random
 26. JS-if-else-Statement
 27. JS-Switch-Statement
+28. JS-For-Loop
