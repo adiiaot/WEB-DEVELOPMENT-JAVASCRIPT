@@ -36,3 +36,5 @@
 26. JS-if-else-Statement
 27. JS-Switch-Statement
 28. JS-For-Loop
+29. JS-For-Of-Loop
+30. JS-While-Loop
