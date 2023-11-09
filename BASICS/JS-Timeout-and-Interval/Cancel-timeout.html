@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANCELING A TIMEOUT</title>
+</head>
+<body>
+    <p>Press the button the cancel the timer for the Pop-Up dialog box</p>
+
+    <button type="button" onclick="cancelTimeout()">Cancel Timeout</button>
+    <script>
+        var myTimeout = setTimeout(function(){
+            alert("Making progress!");
+        }, 3000);
+
+        function cancelTimeout(){
+            clearTimeout(myTimeout);
+        }
+    </script>
+</body>
+</html>

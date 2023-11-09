@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPPING AN INTERVAL</title>
+</head>
+<body>
+    <p>When you press the button, 10 will stop being added to x</p>
+    <p id="demo"></p>
+    <button type="button" onclick="cancelInterval()">Stop Me</button>
+
+    <script>
+        var x = 10;
+    
+        function myFunc() {
+            x += 10;
+    
+            document.getElementById("demo").innerHTML = x;
+        }
+    
+        var myInterval = setInterval(myFunc, 1000);
+    
+        function cancelInterval() {
+            clearInterval(myInterval);
+        }
+    </script>
+</body>
+</html>

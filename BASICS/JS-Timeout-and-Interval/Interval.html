@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ADDING 10 TO X EVERY 1 SECOND</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var x = 10;
+    
+        function myFunc() {
+            // adds x to 10
+            x += 10;
+            document.getElementById("demo").innerHTML = x;
+        }
+    
+        var myInterval = setInterval(myFunc, 1000);
+    </script>
+</body>
+</html>
