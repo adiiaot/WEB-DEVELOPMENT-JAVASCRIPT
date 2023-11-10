@@ -40,3 +40,4 @@
 30. JS-While-Loop
 31. JS-Break-and-Continue
 32. JS-Timeout-and-Interval
+33. JS-Bitwise-Operator
