@@ -41,3 +41,4 @@
 31. JS-Break-and-Continue
 32. JS-Timeout-and-Interval
 33. JS-Bitwise-Operator
+34. JS-Regular-Expressions
