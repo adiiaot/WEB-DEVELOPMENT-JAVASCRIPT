@@ -79,7 +79,7 @@ In the example above, we used the *i* modifier which makes the search case-sensi
 The *replace()* method replaces the specified text inside a string and returns a new string, It is case-sensitive.
 
 <script>
-    var text = "JavaScript is fun, I am like JavaScript";
+    var text = "JavaScript is fun, I like JavaScript";
     var replace = text.replace("JavaScript", "Gaming");
     document.write(replace);
 </script>
@@ -91,8 +91,8 @@ Notice that only the first occurence of "Javascript" was replaced.
 To replace all occurences, use a regular expressiom with the *g* modiifer.
 
 <script>
-    var text = "JavaScript is fun, I am like JavaScript";
-    var replace = text.replace(JavaScript/g, "Gaming");
+    var text = "JavaScript is fun, I like JavaScript";
+    var replace = text.replace("JavaScript/g", "Gaming");
     document.write(replace);
 </script>
 
@@ -101,8 +101,8 @@ HEAD OVER TO Regular-expression.html TO SEE THE OUTPUT OF THIS CODE
 We can also combine the *g* and *i* modifier in a single regular expression.
 
 <script>
-    var text = "JavaScript is fun, I am like JavaScript";
-    var replace = text.replace(JaVaScRiPt/gi, "Gaming");
+    var text = "JavaScript is fun, I like JavaScript";
+    var replace = text.replace("JaVaScRiPt/gi", "Gaming");
     document.write(replace);
 </script>
 
