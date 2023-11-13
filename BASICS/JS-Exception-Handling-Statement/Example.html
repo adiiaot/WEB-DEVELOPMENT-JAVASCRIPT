@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILLUSTRATIVE EXAMPLE</title>
+</head>
+<body>
+    <p> Try to enter a number that's <b> less than 18</b></p>
+
+    <form>
+        <label>Age: <input type="number" id="age" /></label>
+        <button type="button" id="submit">Submit</button>
+    </form>
+
+    <p id="demo"></p>
+
+
+    <script>
+        var submit = document.getElementById("submit");
+
+        submit.onclick = function(){
+            var age = parseInt(document.getElementById("age").value);
+            try {
+                if (age < 18) {
+                    throw "User is below 18, not allowed!";
+                } else {
+                    document.getElementById("demo").innerHTML = "User is above 18 and is allowed to enter";
+                }
+            } catch (error) {
+                document.getElementById("demo").innerHTML = error;
+            }
+        }
+    </script>
+</body>
+</html>

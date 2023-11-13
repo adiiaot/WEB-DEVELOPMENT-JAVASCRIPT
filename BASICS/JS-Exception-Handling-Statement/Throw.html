@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING THE *throw* STATEMENT</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <p> Notice that the <b>statement</b> inside the  <b>finally</b> statement was executed even though an <b>exception</b> was <b>thrown</b></p>
+    <p> Try to remove the <b>throw</b> statement, and see what happens</p>
+
+
+    <script>
+    try{
+        throw "An Error Occurred, Please fix it!";
+    }
+    catch (err){
+        document.getElementById("demo").innerHTML = err;
+    }
+    finally {
+        alert("Making Progress");
+    }
+</script>
+</body>
+</html>

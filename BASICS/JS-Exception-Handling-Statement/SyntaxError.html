@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNTAX ERROR</title>
+</head>
+<body>
+    <p> Name: <span id="name"></span></p>
+    <p> Message: <span id="message"></span></p>
+
+    <script>
+        try {
+            eval("document.write('Making Progress)"); // must "Making Progress" to avoid error
+        }
+        catch (error){
+            document.getElementById("name").innerHTML = error.name;
+            document.getElementById("message").innerHTML = error.message;
+        }
+    </script>
+</body>
+</html>

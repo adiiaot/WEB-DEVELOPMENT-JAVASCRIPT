@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING THE *try...catch* STATEMENT</title>
+</head>
+<body>
+    <p> In this example, the following <b>exception</b> is thrown because myFunction() is not defined</p>
+    <p id="demo"></p>
+
+
+    <script>
+        try {
+            myFunction();
+        } catch (err) {
+            document.getElementById("demo").innerHTML = err;
+        }
+    </script>
+</body>
+</html>
