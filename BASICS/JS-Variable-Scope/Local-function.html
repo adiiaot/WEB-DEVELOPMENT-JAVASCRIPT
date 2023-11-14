@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL FUNCTION</title>
+</head>
+<body>
+    <p>What is the sum of 5 and 3?</p>
+    <p id="demo"></p>
+    <button onclick="myFunc2();">Get Sum</button>
+
+    <script>
+        //getSum() can NOT be used here
+    
+        function myFunc2(){
+            function getSum(x, y){
+                return x + y;
+            }
+    
+            // getSum() can be used here
+            document.getElementById("demo").innerHTML = "the sum of 5 and 3 is " + getSum(5, 3);
+        }
+    </script>
+</body>
+</html>

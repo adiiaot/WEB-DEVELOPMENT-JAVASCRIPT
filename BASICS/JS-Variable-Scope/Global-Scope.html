@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL SCOPE</title>
+</head>
+<body>
+    <button onclick="myFunc();">Show Favourite Animal</button>
+    <p id="demo"></p>
+
+
+    <script>
+        myFunc(); //call the function
+
+        //animal can be used here
+        document.getElementById("demo").innerHTML = "I love " + animal;
+
+        function myFunc(){
+            //animal can be used here
+            var animal = "Lion";
+            alert(animal);
+        }
+    </script>
+</body>
+</html>

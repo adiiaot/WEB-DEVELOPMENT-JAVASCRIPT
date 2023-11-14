@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL FUNCTION</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+
+    <button onclick="myFunc()">First Word</button>
+    <button onclick="myFunc2();">Second Word</button>
+    <script>
+        function myFunc() {
+            document.getElementById("demo").innerHTML = "Making";
+        }
+    
+        // myFunc() can be used here
+    
+        function myFunc2() {
+            //myFunc() can be used here
+            myFunc();
+            document.getElementById("demo").innerHTML += " Progress";
+        }
+    </script>
+</body>
+</html>

@@ -43,3 +43,4 @@
 33. JS-Bitwise-Operator
 34. JS-Regular-Expressions
 35. JS-Exception-Handling-Statement
+36. JS-Variable-Scope
