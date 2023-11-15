@@ -46,3 +46,4 @@
 36. JS-Variable-Scope
 37. JS-Variable-Hoisting
 38. JS-Strict-Mode
+39. JS-Let-Statement
