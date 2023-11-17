@@ -2,7 +2,7 @@
 The *Date* object allows us to work with dates.
 
 # THE *Date()* CONSTRUCTOR
-The *new Date()* constructot returns a Date object
+The *new Date()* constructor returns a Date object
 
 There are 4 basic forms of the date constructor.
 
@@ -111,4 +111,3 @@ All these parameters are optional.
     var date = new Date(864000000);
     document.write(date);
 </script>
-
