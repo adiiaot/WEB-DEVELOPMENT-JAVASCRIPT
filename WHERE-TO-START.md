@@ -52,3 +52,4 @@
 # ADVANCED
 1. JS-Dates
 2. JS-Date-Formats
+3. JS-Date-Get-Methods
