@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this keyword</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+    <script>
+        const animal = {
+            name: "lion", 
+            color: "yellow",
+            isWild: true,
+            showAnimal: function(){
+                document.getElementById("demo").innerHTML = "The " + this.name + " is " + this.color;
+            }
+        };
+    
+        animal.showAnimal();
+    </script>
+</body>
+</html>

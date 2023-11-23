@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using window in the global scope</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+</body>
+<script>
+    var animal = "lion";
+    function greetUser(){
+        alert("Making Progress!");
+    }
+
+    document.getElementById("demo").innerHTML = window.animal;
+    window.greetUser();
+</script>
+</html>
