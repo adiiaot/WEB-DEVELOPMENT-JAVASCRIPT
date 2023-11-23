@@ -55,3 +55,4 @@
 3. JS-Date-Get-Methods
 4. JS-Date-Set-Methods
 5. JS-this-Keyword
+6. JS-Arrow-Function

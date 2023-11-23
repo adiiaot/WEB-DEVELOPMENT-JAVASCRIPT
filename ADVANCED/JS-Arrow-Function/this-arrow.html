@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing HTML button element</title>
+</head>
+<body>
+    <p>Click the button to change its color and style</p>
+    <button type="button" id="btn">Click me</button>
+</body>
+<script>
+    const btn = document.getElementById("btn");
+
+    btn.onclick = function(){
+        const changeStyle = () => {
+            this.style.background = "red";
+            this.style.color = "white";
+        };
+        changeStyle();
+    };
+</script>
+</html>
