@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple parameters in Classes</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+    <script>
+        class Fruit {
+            constructor(fruitName, fruitColor) {
+                this.name = fruitName;
+                this.color = fruitColor;
+                this.taste = "sweet";
+            }
+        }
+
+        const fruit = new Fruit("apple", "green");
+
+        //accessing the object created
+        document.getElementById("demo").innerHTML = 
+        "The " + fruit.name + " is " + fruit.color + " and " + fruit.taste;
+    </script>
+</body>
+</html>
