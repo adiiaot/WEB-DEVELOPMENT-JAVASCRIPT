@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METHODS IN CLASSES</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        class Fruit {
+            constructor(fruitName, fruitColor){
+                this.name = fruitName;
+                this.color = fruitColor;
+                this.taste = "sweet";
+            }
+
+            showInfo() {
+            document.getElementById("demo").innerHTML = 
+            "The " + this.name + " is " + this.color + " and " + this.taste;
+        }
+    }
+
+
+         const fruit = new Fruit("Apple", "green");
+        fruit.showInfo();
+    </script>
+</body>
+</html>

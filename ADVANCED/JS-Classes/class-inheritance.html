@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS INHERITANCE</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+    <script>
+        class Animal {
+            constructor(animalName){
+                this.name = animalName;
+            }
+
+            walks(){
+                return this.name + " walks";
+            }
+        }
+
+        class Cat extends Animal {
+            constructor(animalName){
+                super(animalName);
+            }
+
+            speaks(){
+                return this.name + " meows";
+            }
+        }
+
+        const cat = new Cat("mingming");
+        document.getElementById("demo").innerHTML =
+        cat.walks() + " and " + cat.speaks();
+    </script>
+</body>
+</html>
