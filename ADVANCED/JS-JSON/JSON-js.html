@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTING JSON TO JAVASCRIPT OBJECT</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+    <script>
+        const text = `{
+            "firstName": "Ayo",
+            "lastName": "Aot",
+            "age": 18,
+            "isMarried": true
+        }`;
+
+        const obj = JSON.parse(text); //returns JSON to an object
+
+        //now we can access its properties
+        document.getElementById("demo").innerHTML =
+        obj.firstName + " " + obj.lastName + " is " + obj.age + " years old."; 
+    </script>
+</body>
+</html>

@@ -57,3 +57,4 @@
 5. JS-this-Keyword
 6. JS-Arrow-Function
  7. JS-Classes
+ 8. JS-JSON
