@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENT SIDE VALIDATION</title>
+</head>
+<body>
+    <p>Enter your name and submit the form</p>
+
+    <form action="" onsubmit="validateForm()">
+        <input type="text" name="firstName" id="firstName" placeholder="Enter your name"/>
+        <input type="submit" />
+    </form>
+</body>
+
+<script>
+    function validateForm(){
+        const firstName = document.getElementById("firstName").value;
+        if (firstName == "") {
+            alert("Please enter your name");
+            return false;
+        }
+    }
+</script>
+</html>
