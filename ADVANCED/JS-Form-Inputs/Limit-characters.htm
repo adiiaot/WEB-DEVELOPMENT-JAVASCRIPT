@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMITING THE NUMBER OF CHARACTERS IN AN INPUT FIELD</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="userName" />
+        <button type="button" onclick="validateForm()">Submit Form</button>
+    </form>
+</body>
+
+<script>
+    function validateForm(){
+        const userName = document.getElementsByName("userName")[0].value;
+        const length = userName.length;
+        if (length > 10) {
+            alert("You cannot input more than 10 characters!");
+            return false;
+        }
+    }
+</script>
+</html>

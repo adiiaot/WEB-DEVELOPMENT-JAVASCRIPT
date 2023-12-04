@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDATING AN EMPTY INPUT</title>
+</head>
+<body>
+    <p>This Form will not be submitted if the input is not filled</p>
+
+    <form>
+        <input type="text" name="firstName"/>
+        <button type="button" onclick="validateForm()">Submit Form</button>
+    </form>
+
+    <script>
+        function validateForm(){
+            const firstName = document.getElementsByName("firstName")[0].value;
+            if (firstName == "") {
+                alert("Please type a text into the input field!");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW TO GET AN INPUT VALUE</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="firstName" id="firstName" />
+        <button type="button" onclick="getValue()">Get Value</button>
+    </form>
+
+    <script>
+        function getValue(){
+            const val = document.getElementById("firstName").value;
+            alert("The value is " + val);
+        }
+    </script>
+</body>
+</html>

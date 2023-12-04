@@ -56,6 +56,7 @@
 4. JS-Date-Set-Methods
 5. JS-this-Keyword
 6. JS-Arrow-Function
- 7. JS-Classes
- 8. JS-JSON
- 9. JS-FORMS
+7. JS-Classes
+8. JS-JSON
+9. JS-FORMS
+10. JS-Form-Inputs
