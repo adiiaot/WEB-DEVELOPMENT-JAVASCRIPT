@@ -60,3 +60,4 @@
 8. JS-JSON
 9. JS-FORMS
 10. JS-Form-Inputs
+11. JS-Reserved-Keywords
