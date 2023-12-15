@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTING TOPMOST ELEMENTS</title>
+</head>
+<body>
+    <h1> A Header </h1>
+    <p> A Paragraph </p>
+
+    <script>
+        // gets the value of the lang attribute of <html>
+        alert(document.documentElement.getAttribute("lang"));
+
+        // gets the content of <title> inside the <head>
+            alert(document.head.firstElementChild.innerHTML);
+
+            // changes the background color of the <body>
+                document.body.style.backgroundColor = "green";
+    </script>
+</body>
+</html>

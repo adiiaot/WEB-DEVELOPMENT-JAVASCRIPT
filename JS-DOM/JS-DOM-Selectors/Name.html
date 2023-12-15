@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTING ELEMENT USING NAME</title>
+</head>
+<body>
+    <p><label>First Name: <input type="text" name="firstName"></label></p>
+    <p><label>Last Name: <input type="text" name="lastName"></label></p>
+    
+    <button onclick="getValues()">Get Values</button>
+
+    <script>
+        function getValues(){
+            const firstName = document.getElementsByName("firstName")[0].value;
+            const lastName = document.getElementsByName("lastName")[0].value;
+
+            const fullName = "Your full name is " + firstName + " " + lastName;
+
+            alert(fullName);
+        }
+    </script>
+</body>
+</html>

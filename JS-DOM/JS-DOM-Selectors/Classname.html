@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTING ELEMENTS BY CLASS NAME</title>
+</head>
+<body>
+    <p class="big-green">My Class name is <b>"big-green"</b>. Welcome to the coding world! </p>
+
+    <p>I have no class name. </p>
+
+    <p class="big-green">My Class name is <b>"big-green"</b>. Making Progress!</p>
+
+    <p> I have no class name. </p>
+
+
+    <script>
+        //let's select elements with "big-green" class name
+        const elements = document.getElementsByClassName("big-green");
+
+        //let's access each selected element
+        for(let i = 0; i < elements.length; i++){
+            // let's style each selected element
+            elements[i].style.fontSize = "20px";
+            elements[i].style.color = "green";
+        }
+    </script>
+</body>
+</html>

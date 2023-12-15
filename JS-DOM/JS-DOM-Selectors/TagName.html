@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTING ELEMENTS USING TAG NAME</title>
+</head>
+<body>
+    <h3> Making Progress! </h3>
+    <p>Welcome to the coding world, welcome to the tutorials</p>
+    <h3>Lorem Ipsum</h3>
+    <p>Lorem, ipsum dolor sit amet. </p>
+
+    <script>
+        //let's select all <h3> elements
+            const elements = document.getElementsByTagName("h3");
+
+            // let's access each selected element
+            for(let i = 0; i < elements.length; i++){
+                // let's style each selected element
+                elements[i].style.color = "green";
+            }
+    </script>
+</body>
+</html>

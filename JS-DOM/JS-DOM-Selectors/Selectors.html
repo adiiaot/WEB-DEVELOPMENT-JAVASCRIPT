@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTING ELEMENTS USING THE CSS SELECTORS</title>
+</head>
+<body>
+    <h3 class="big-green">Making Progress! </h3>
+    <p>Welcome to the coding world, welcome to the tutorials</p>
+    <h3 class="big-green">Lorem Ipsum </h3>
+    <p>Lorem, ipsum dolor sit amet</p>
+
+
+    <script>
+        //let's select elements with "big-green" class name
+        const elements = document.querySelectorAll(".big-green");
+
+        //let's access each selected element
+        for(let i = 0; i < elements.length; i++){
+            // let's style the selected element
+            elements[i].style.color = "green";
+        }
+    </script>
+</body>
+</html>
