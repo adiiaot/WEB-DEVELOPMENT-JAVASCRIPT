@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIBLINGS</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Lorem ipsum</h1>
+        <p id="demo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil eius, eos id cumque cum corrupti illum. Nostrum qui ducimus exercitationem est nemo</p>
+        <a href="#">Go to example.com</a>
+    </div>
+
+    <script>
+        //let's select the <p> element
+            const pElement = document.getElementById("demo");
+
+            //let's select the <h1> element and style it
+                pElement.previousElementSibling.style.color = "red";
+                pElement.previousElementSibling.style.background = "green";
+    </script>
+</body>
+</html>

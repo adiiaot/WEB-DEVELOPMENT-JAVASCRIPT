@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARENT AND CHILDREN</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Lorem Ipsum</h1>
+        <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#">Go to Example.com</a>
+    </div>
+
+
+    <script>
+        //let's select the <p> element
+            const pElement = document.getElementById("demo");
+
+            //let's select the <p> element's parent and style it
+                pElement.parentElement.style.background = "gold";
+    </script>
+</body>
+</html>

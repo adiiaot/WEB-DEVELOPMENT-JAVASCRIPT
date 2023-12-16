@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstElementChild</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Lorem Ipsum</h1>
+        <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#">Go to Example.com</a>
+    </div>
+
+    <script>
+        //let's select the <div> element
+            const divElement = document.getElementById("container");
+
+            //let's select the <div> first child element and style it
+                divElement.firstElementChild.style.background = "gold";
+    </script>
+</body>
+</html>
