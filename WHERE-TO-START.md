@@ -69,3 +69,4 @@
 3. JS-DOM-Nodes
 4. JS-DOM-Navigation 
 5. JS-DOM-HTML
+6. JS-DOM-CSS
