@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removing Elements</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Lion</li>
+        <li>Tiger</li>
+        <li>Dog</li>
+    </ul>
+    <button onclick="removeFirstChild()">REMOVE THE FIRST CHILD</button>
+
+    <script>
+        const list = document.getElementById("list");
+
+        function removeFirstChild(){
+            //select the first child element of the list
+            const firstChild = list.firstElementChild;
+
+            //remove the first child element
+            firstChild.remove();
+        }
+    </script>
+</body>
+</html>

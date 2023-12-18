@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSERTING TO ELEMENTS</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Lion</li>
+        <li>Tiger</li>
+        <li>Dog</li>
+    </ul>
+    <button onclick="prependContent()">Prepend Content</button>
+
+
+    <script>
+        const list = document.getElementById("list");
+
+        function prependContent(){
+            const li = document.createElement("li");
+            const textNode = document.createTextNode("Cheetah");;
+            li.appendChild(textNode);
+
+            list.prepend(li);
+        }
+    </script>
+</body>
+</html>

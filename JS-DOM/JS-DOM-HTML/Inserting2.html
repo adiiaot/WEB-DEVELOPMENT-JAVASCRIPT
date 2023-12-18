@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSERTING TO ELEMENTS</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Tiger</li>
+        <li>Lion</li>
+        <li>Dog</li>
+    </ul>
+    <button onclick="appendContent()">Append Content</button>
+
+    <script>
+        const list = document.getElementById("list");
+
+        function appendContent(){
+            const li = document.createElement("li");
+            const textNode = document.createTextNode("Cheetah");;
+
+            li.append(textNode);
+
+            list.append(li);
+        }
+
+        
+    </script>
+</body>
+</html>
