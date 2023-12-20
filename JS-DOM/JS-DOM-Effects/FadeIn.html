@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FADE IN</title>
+</head>
+<body>
+    <div id="demo">
+        <h1>FADE IN</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non nesciunt natus animi placeat laboriosam labore, incidunt modi dolorum nemo magnam possimus mollitia, eos saepe vero error! Sint, porro iusto.</p>
+    </div>
+    <button onclick="fadeIn()">FADE IN</button><button onclick="fadeOut()">FADE OUT</button>
+</body>
+<script>
+    function fadeOut(){
+        const elem = document.getElementById("demo");
+
+        elem.style.opacity = 0;
+
+        setTimeout(function(){
+            elem.style.display = "none";
+        }, 1000);
+    }
+
+
+    function fadeIn(){
+        const elem = document.getElementById("demo");
+
+        elem.style.display = "block";
+
+        setTimeout(function(){
+            elem.style.opacity = 1;
+        }, 10);
+    }
+</script>
+</html>

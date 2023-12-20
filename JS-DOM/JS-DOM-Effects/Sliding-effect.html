@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDING EFFECT</title>
+</head>
+<body>
+    <div id="demo">
+        <h1>SLIDE IN AND OUT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nostrum voluptatum. Ullam pariatur, asperiores est nihil voluptas rerum natus consectetur tenetur! Odio earum placeat dolorum fugiat, labore vel vitae deleniti!</p>
+    </div>
+    <button onclick="slideUp()">SLIDE UP</button><button onclick="slideDown()">SLIDE DOWN</button>
+</body>
+
+<script>
+    function slideUp(){
+        const elem = document.getElementById("demo");
+
+        elem.style.maxHeight = "0px";
+
+    }
+
+    function slideDown(){
+        const elem = document.getElementById("demo");
+
+        elem.style.maxHeight = "100px";
+    }
+</script>
+</html>
