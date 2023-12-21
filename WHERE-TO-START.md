@@ -72,3 +72,6 @@
 6. JS-DOM-CSS
 7. JS-DOM-Effects
 8. JS-DOM-Events
+
+# JS-BOM
+1. JS-BOM-Window
