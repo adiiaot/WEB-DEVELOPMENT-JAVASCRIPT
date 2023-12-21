@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOAD EVENT</title>
+</head>
+<body>
+    <div>
+        <h1>LOAD EVENT</h1>
+        <p>Once the Image loads, a function will be called</p>
+        <img src="/Images/css3.png" id="img">
+    </div>
+
+    <script>
+        const img = document.getElementById("img");
+
+        img.addEventListener("load", function(){
+            alert("The Image has loaded");
+        });
+    </script>
+</body>
+</html>

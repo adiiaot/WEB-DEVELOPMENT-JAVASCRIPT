@@ -71,3 +71,4 @@
 5. JS-DOM-HTML
 6. JS-DOM-CSS
 7. JS-DOM-Effects
+8. JS-DOM-Events

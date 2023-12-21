@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICK EVENT</title>
+</head>
+<body>
+    <h1>CLICK EVENT</h1>
+    <p>Click the button below to fires the event so the listener function can be called which is the dialog box</p>
+
+    <button type="button" id="btn">CLICK ME</button>
+</body>
+<script>
+    const btn = document.getElementById("btn");
+
+    btn.addEventListener("click", function(){
+        alert("YOU ARE MAKING PROGRESS!");
+    });
+</script>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE EVENTS</title>
+</head>
+<body>
+    <div>
+        <h1>CHANGE EVENTS</h1>
+        <p>Once you change the values in the INPUT section, you will see the value in the next Paragraph</p>
+        <input type="text" />
+        <p id="demo"></p>
+    </div>
+</body>
+
+<script>
+    const input = document.getElementsByTagName("input")[0];
+
+    input.addEventListener("change", function(){
+        document.getElementById("demo").innerHTML = input.value;
+    });
+</script>
+</html>
