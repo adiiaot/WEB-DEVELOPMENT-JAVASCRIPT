@@ -77,3 +77,4 @@
 1. JS-BOM-Window
 2. JS-BOM-Screen
 3. JS-BOM-Location
+4. JS-BOM-History
