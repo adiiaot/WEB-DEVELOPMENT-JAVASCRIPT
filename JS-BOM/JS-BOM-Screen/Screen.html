@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIDTH PROPERTY</title>
+</head>
+<body>
+    <h1>THE SCREEN WIDTH WILL BE DISPLAYED BELOW</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+</body>
+
+<script>
+    //The width property
+    document.getElementById("demo").innerHTML =
+    screen.width;
+
+    //The availWidth property
+    document.getElementById("demo1").innerHTML =
+    screen.availWidth;
+
+    //The height property
+    document.getElementById("demo2").innerHTML =
+    screen.height;
+
+    //The availHeight property
+    document.getElementById("demo3").innerHTML = 
+    screen.availHeight;
+
+    //The orientation property
+    document.getElementById("demo4").innerHTML = 
+    screen.orientation.type;
+
+    //The pixelDepth property
+    document.getElementById("demo5").innerHTML = 
+    screen.pixelDepth;
+
+    //The colorDepth property
+    document.getElementById("demo6").innerHTML = 
+    screen.colorDepth;
+</script>
+</html>
