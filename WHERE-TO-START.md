@@ -81,3 +81,5 @@
 5. JS-BOM-Navigator
 6. JS-BOM-Pop-Up Boxes
 7. JS-BOM-Cookies
+
+# JS-AJAX
