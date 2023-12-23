@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS BOM NAVIGATOR</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+</body>
+<script>
+    document.getElementById("demo").innerHTML = 
+    navigator.platform;
+
+    document.getElementById("demo1").innerHTML = 
+    navigator.language;
+
+    document.getElementById("demo2").innerHTML = 
+    navigator.appName;
+
+    document.getElementById("demo3").innerHTML = 
+    navigator.appCodeName;
+
+    document.getElementById("demo4").innerHTML = 
+    navigator.appVersion;
+
+    document.getElementById("demo5").innerHTML = 
+    navigator.userAgent;
+
+    document.getElementById("demo6").innerHTML = 
+    navigator.onLine;
+
+</script>
+</html>

@@ -79,3 +79,4 @@
 3. JS-BOM-Location
 4. JS-BOM-History 
 5. JS-BOM-Navigator
+6. JS-BOM-Pop-Up Boxes
