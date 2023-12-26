@@ -85,3 +85,4 @@
 # JS-AJAX
 1. JS-AJAX-INTRODUCTION
 2. JS-AJAX-XMLHttpRequest
+3. JS-AJAX-Send Request
